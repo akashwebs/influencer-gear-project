@@ -1,0 +1,73 @@
+             @media only screen and (max-width: 688px) {
+                 .container {
+                     padding: 0 1%;
+                 }
+                 .logo {
+                     width: 100%;
+                 }
+                 .logo>a {
+                     display: block;
+                     text-align: center;
+                 }
+                 .menu__bar>ul {
+                     display: none;
+                 }
+                 .banner-section {
+                     flex-direction: column-reverse;
+                 }
+                 .banner-left {
+                     width: 100%;
+                     margin-top: 50px;
+                     padding: 0;
+                     display: flex;
+                     flex-direction: column;
+                     align-items: center;
+                     justify-content: center;
+                 }
+                 .banner-left h1 {
+                     font-size: 2.25rem;
+                     line-height: 3.375rem;
+                     text-align: center;
+                 }
+                 .banner-right {
+                     width: 100%;
+                     padding: 15px 0px;
+                 }
+                 .banner-left p {
+                     text-align: center;
+                     padding: 0 35px;
+                 }
+                 .partner-section {
+                     grid-template-columns: repeat( 4, 1fr);
+                     row-gap: 15px;
+                 }
+                 .product__section--products {
+                     grid-template-columns: 1fr;
+                 }
+                 .product-img {
+                     height: 256px;
+                 }
+                 .newslatter {
+                     grid-template-columns: 1fr;
+                 }
+                 .newslatter-img {
+                     display: none;
+                 }
+             }
+             /* tableet screen  */
+             
+             @media only screen and (min-width:689px) and (max-width: 992px) {
+                 .container {
+                     padding: 0 3%;
+                 }
+                 .product__section--products {
+                     grid-template-columns: 1fr 1fr;
+                 }
+                 .banner-left h1 {
+                     font-size: 34px;
+                     line-height: 50px;
+                 }
+                 .newslatter-img {
+                     background-position: right;
+                 }
+             }
